@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" id="WebApp_1536078099426">
+	<filter id="Filter_1539413779211">
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>cn.itcast.filter.EncodingFilter</filter-class>
+	</filter>
+	<filter>
+		<description>
+		</description>
+		<display-name>LoginFilter</display-name>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>cn.itcast.goods.web.filter.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/jsps/cart/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<servlet-name>CartItemServlet</servlet-name>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/jsps/order/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<servlet-name>OrderServlet</servlet-name>
+	</filter-mapping>
+	
+	<servlet id="Servlet_1539413779142">
+		<description>
+		</description>
+		<display-name>UserServlet</display-name>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.user.web.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1539413779038">
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet id="Servlet_1539413779197">
+		<servlet-name>VerifyCodeServlet</servlet-name>
+		<servlet-class>cn.itcast.vcode.servlet.VerifyCodeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1539413778275">
+		<servlet-name>VerifyCodeServlet</servlet-name>
+		<url-pattern>/VerifyCodeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet id="Servlet_1539413779199">
+		<description>
+		</description>
+		<display-name>CategoryServlet</display-name>
+		<servlet-name>CategoryServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.category.web.servlet.CategoryServlet</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1539413779203">
+		<description>
+		</description>
+		<display-name>BookServlet</display-name>
+		<servlet-name>BookServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.book.web.servlet.BookServlet</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1539413779206">
+		<description>
+		</description>
+		<display-name>CartItemServlet</display-name>
+		<servlet-name>CartItemServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.cart.web.Servlet.CartItemServlet</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1539413779209">
+		<description>
+		</description>
+		<display-name>OrderServlet</display-name>
+		<servlet-name>OrderServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.order.web.servlet.OrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AdminServlet</display-name>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.admin.admin.web.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AdminCategoryServlet</display-name>
+		<servlet-name>AdminCategoryServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.admin.category.web.servlet.AdminCategoryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AdminBookServlet</display-name>
+		<servlet-name>AdminBookServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.admin.book.web.servlet.AdminBookServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AdminAddBookServlet</display-name>
+		<servlet-name>AdminAddBookServlet</servlet-name>
+		<servlet-class>cn.itcast.goods.admin.book.web.servlet.AdminAddBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1539413779040">
+		<servlet-name>CategoryServlet</servlet-name>
+		<url-pattern>/CategoryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1539413779043">
+		<servlet-name>BookServlet</servlet-name>
+		<url-pattern>/BookServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1539413779044">
+		<servlet-name>CartItemServlet</servlet-name>
+		<url-pattern>/CartItemServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1539413779045">
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/OrderServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/AdminServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminCategoryServlet</servlet-name>
+		<url-pattern>/admin/AdminCategoryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminBookServlet</servlet-name>
+		<url-pattern>/admin/AdminBookServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminAddBookServlet</servlet-name>
+		<url-pattern>/admin/AdminAddBookServlet</url-pattern>
+	</servlet-mapping>
+</web-app>

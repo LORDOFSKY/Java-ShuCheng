@@ -1,0 +1,52 @@
+body {
+	font-size: 10pt;
+	color: #404040;
+	font-family: Arial;
+}
+
+.div0 {
+	margin: 20px 80px;
+	font-size: 15px;
+}
+
+.div1 {
+	width: 820px;
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	border: 1px solid #D2D3D5;
+	background-color: #F4FEFF;
+}
+
+table {
+	font-size: 10pt;
+	color: #404040;
+	font-family: Arial;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.input {
+	border: 1px solid #DADADA;
+	height: 20px;
+	margin-left: 15px;
+}
+
+.bc {
+	width: 80px;
+	height: 20px;
+	margin-left: 15px;
+}
+
+#vCode {
+	margin-left: 15px;
+}
+
+#verifyCode {
+	width: 50px;
+}
+
+label.error {
+	color: #cc3300;
+}

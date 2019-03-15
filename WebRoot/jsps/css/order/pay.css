@@ -1,0 +1,79 @@
+body {
+	font-size: 10pt;
+	color: #404040;
+}
+
+.divContent {
+	width: 880px;
+	height: 100px;
+	background-color: #efeae5;
+	margin-left: 50px;
+	line-height: 100px;
+	color: #404040;
+	border: 5px solid #efeae5;
+}
+
+.divBank {
+	border: 5px solid #efeae5;
+	width: 880px;
+	height: 450px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.divText {
+	font-size: 15px;
+	font-weight: 900;
+	margin: 20px;
+}
+
+.spanPrice {
+	font-weight: 900;
+	font-family: 黑体;
+	margin-left: 30px;
+}
+
+.spanOid {
+	font-size: 13px;
+	color: #878787;
+	font-family: Arial;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 15pt;
+}
+
+img {
+	margin-right: 25px;
+}
+
+.linkNext {
+	background: url(/goods/images/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -35px;
+	height: 40px;
+	width: 190px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 900;
+	color: #ffffff;
+	line-height: 40px;
+	font-family: 黑体;
+}
+
+.linkNext:HOVER {
+	background: url(/goods/images/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -75px;
+	height: 40px;
+	width: 190px;
+	poorfish: expression(this.onclick = function jiesuan(){return true});
+}

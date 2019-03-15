@@ -1,0 +1,53 @@
+body {
+	font-size: 10pt;
+	color: #404040;
+	font-family: SimSun;
+}
+
+table {
+	font-size: 10pt;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 680px;
+}
+
+td {
+	height: 25px;
+}
+
+.tp {
+	border: 1px solid #dcdcdc;
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin: 10px;
+}
+
+.btn {
+	border: 0;
+	width: 142px;
+	height: 33px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: left;
+	padding-top: 1px;
+	padding-left: 32px;
+	color: #fff;
+	font-family: 黑体;
+}
+
+.btn1 {
+	background: url(/goods/images/hong_2_btn.jpg) left top
+		no-repeat;
+}
+
+.btn2 {
+	background: url(/goods/images/hong_1_btn.jpg) left top
+		no-repeat;
+}

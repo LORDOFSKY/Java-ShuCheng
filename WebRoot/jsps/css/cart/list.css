@@ -1,0 +1,21 @@
+table {font-size: 10pt;border-color: #efeae5;border-style: solid;border-width: 5px;color: #404040;}
+td {border-color: #efeae5;border-style: solid;border-width: 0;border-bottom-width: 1px;padding: 10px;}
+.jian:HOVER {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: -166px -125px;height: 11px;width: 11px;margin: 0;}
+.jian {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: -166px -145px;height: 11px;width: 11px;margin: 0;}
+.jia:HOVER {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: -178px -125px;height: 11px;width: 11px;margin: 0;}
+.jia {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: -178px -145px;height: 11px;width: 11px;margin: 0;}
+.jiesuan {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: 0 -35px;height: 40px;width: 190px;margin: 0;}
+.kill {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: 0 -480px;height: 40px;width: 190px;}
+.jiesuan:HOVER {background: url(/goods/images/icon.png) no-repeat;display: inline-block;background-position: 0 -75px;height: 40px;width: 190px;poorfish: expression(this.onclick = function jiesuan(){return true});}
+.quantity {width: 25px;text-align: center;margin: 0;}
+a {text-decoration: none; color: #018BD3;}
+a:visited {color: #018BD3;}
+a:hover {color:#FF6600; text-decoration: underline;}
+a.linkImage {border: 1px solid #ffffff;display: inline-block;}
+a.linkImage:HOVER {border: 1px solid #d0d0d0;display: inline-block;}
+a.linkImage:active {border: 1px dotted #404040;display: inline-block;}
+.price_n {color: #c30;font-weight: bold;padding-right: 10px;font-family: Arial;}
+.price_t {color: #c30;font-weight: bold;padding-right: 10px;font-family: Arial;font-size: 15pt;}
+.spanEmpty{margin-top: 50px; font-size: 24px; font-weight: 900;}
+.tdBatchDelete{border-top-width: 5px;border-bottom-width:0px;}
+.tdTotal{border-top-width: 5px;}

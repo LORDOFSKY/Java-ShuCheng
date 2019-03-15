@@ -1,0 +1,37 @@
+body {background-color: f5f5f5;}
+.main{margin-left: 250px; margin-top: 30px;}
+.imageDiv{float: left;}
+.img{width: 400px;}
+.login1{width: 440px; height: 370px; border: 1px solid #d1d1cf; float: left; background-color: #f4f4f4;}
+.login2{width:436px; height:366px; margin: 2px; background-color: #ffffff;}
+.loginTopDiv {padding: 30px;}
+.loginTop {color: #696969; font-size: 20px; font-weight: 900;}
+.registBtn {
+	background: url(/goods/images/login_sprites_20110808.png);
+	display: inline-block;
+	background-position: 0px -46px;
+	height: 24px;
+	width: 73px;	
+	margin-left: 250px;
+}
+.registBtn:HOVER {
+	background: url(/goods/images/login_sprites_20110808.png);
+	display: inline-block;
+	background-position: -73px -46px;
+	height: 24px;
+	width: 73px;
+	margin-left: 250px;
+}
+
+table {margin-left: 30px;font-size: 10pt;color: #404040;}
+.input {width: 235px;height: 26px;border: 1px solid #d9d9d9;padding-top: 4px;padding-left: 8px;}
+.yzm {width: 90px;height: 26px;border: 1px solid #d9d9d9;vertical-align: middle; margin-right: 30px;padding-top: 4px;padding-left: 8px;}
+label.error {color:#cc3300;font-weight: 900;}
+#vCode {margin-right: 30px; vertical-align: middle;width: 70px;height: 26px;border: 1px solid #000;}
+.loginBtn {border: 0px; width: 92px; height: 27px;}
+
+
+
+
+
+

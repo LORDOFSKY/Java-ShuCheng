@@ -1,0 +1,16 @@
+.pic { display: block; position: relative; margin-bottom: 3px; width: 200px; height: 200px; }
+.inner {overflow:hidden;text-overflow:ellipsis;word-break:keep-all;white-space:nowrap; border: solid 3px #fff; padding: 16px 16px 0; position: absolute; }
+li {float: left; width: 240px; height: 319px; line-height: 18px; position: relative; border-bottom: solid 1px #e5e5e5; }
+li div {margin-bottom:1px;margin-left: 10px;}
+
+body,ul, li, p,img, div { margin: 0; padding: 0; list-style-type: none; font-size: 12px;}
+.price {padding-bottom: 3px; color: #878787; }
+.price_n {color: #c30; font-weight: bold; padding-right: 10px; font-family: Arial; }
+.price_s {color: #c30; font-family: Arial; }
+.price_r {color: #878787; text-decoration: line-through; padding-right: 10px; font-family: Arial; }
+#bookname {text-decoration:underline; color:#555555; display: block; overflow: hidden; width: 200px; font-family: Arial; }
+#bookname:hover {color:#FF6600; }
+.inner a {color: #018BD3;}
+.inner a:hover {color:#FF6600; }
+.inner a:VISITED {color:#018BD3;}
+.divBook{float:left;}

@@ -1,0 +1,12 @@
+table {font-size: 10pt;font-family: SimSun;border-color: #efeae5;border-style: solid;border-width: 5px;color: #404040;}
+td {border-color: #efeae5;border-style: solid;border-width: 0;border-bottom-width: 1px;padding: 10px;}
+#linkSubmit {background: url(/goods/images/icon2.png) no-repeat;display: inline-block;background-position: 0px -35px;height: 40px;width: 190px;text-align: center;text-decoration: none;font-size: 24px;font-weight: 900;color: #ffffff;font-family: 黑体;line-height: 40px;}
+#linkSubmit:HOVER {background: url(/goods/images/icon2.png) no-repeat;display: inline-block;background-position: 0px -75px;height: 40px;width: 190px;}
+a {text-decoration: none; color: #018BD3;}
+a:visited {color: #018BD3;}
+a:hover {color:#FF6600; text-decoration: underline;}
+.price_n {color: #c30;font-weight: bold;padding-right: 10px;font-family: Arial;}
+.price_t {color: #c30;font-weight: bold;padding-right: 10px;font-family: Arial;font-size: 15pt;}
+a.linkImage {display: inline-block;border: 1px solid #ffffff;}
+a.linkImage:HOVER {display: inline-block;border: 1px solid #d0d0d0;}
+a.link2:active {border: 1px dotted #404040;}
