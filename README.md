@@ -197,26 +197,27 @@ Java网上图书商城，项目基于MVC设计模式，采用B/S结构
 
 ## 2.3　分类管理
 2.3.1　分类列表
-  当点击首页上部的“分类管理”链接到达分类列表页面。
-   ![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E5%88%86%E7%B1%BB%E5%88%97%E8%A1%A8.png)
+当点击首页上部的“分类管理”链接到达分类列表页面。
+![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E5%88%86%E7%B1%BB%E5%88%97%E8%A1%A8.png)
 
 
 2.3.2　添加分类
-  在分类列表页面中有“添加一级分类”链接，点击该链接直接“添加一级分类页面”。
-  列表中每个一级分类后面都存在“添加二级分类”链接，添加可以到达“添加二级分类页面”。
-  
-  ![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB.png)
-  
-  ![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB2.png)
-  
-　　添加二级分类需要指定父分类。
+在分类列表页面中有“添加一级分类”链接，点击该链接直接“添加一级分类页面”。
+列表中每个一级分类后面都存在“添加二级分类”链接，添加可以到达“添加二级分类页面”。
+
+![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB.png)
+
+![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB2.png)
+
+添加二级分类需要指定父分类。
 
 
 2.3.3　修改分类
-  在分类列表中，每个一级分类，以及二级分类后都存在“修改”链接。点击一级分类后的“修改”链接进入“修改一级分类页面”；点击二级分类后的“修改”链接进入“修改二级分类页面”。
-  
-  ![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E4%BF%AE%E6%94%B9%E5%88%86%E7%B1%BB.png)
-  ![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E4%BF%AE%E6%94%B9%E5%88%86%E7%B1%BB2.png)
+在分类列表中，每个一级分类，以及二级分类后都存在“修改”链接。点击一级分类后的“修改”链接进入“修改一级分类页面”；点击二级分类后的“修改”链接进入“修改二级分类页面”。
+
+![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E4%BF%AE%E6%94%B9%E5%88%86%E7%B1%BB.png)
+
+![整体流程](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E4%BF%AE%E6%94%B9%E5%88%86%E7%B1%BB2.png)
 
 
 
