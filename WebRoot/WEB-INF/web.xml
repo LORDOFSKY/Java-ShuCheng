@@ -15,6 +15,13 @@
 		<filter-name>LoginFilter</filter-name>
 		<filter-class>cn.itcast.goods.web.filter.LoginFilter</filter-class>
 	</filter>
+	<filter>
+		<description>
+		</description>
+		<display-name>AdminLoginFilter</display-name>
+		<filter-name>AdminLoginFilter</filter-name>
+		<filter-class>cn.itcast.goods.admin.web.filter.AdminLoginFilter</filter-class>
+	</filter>
 	<filter-mapping>
 		<filter-name>EncodingFilter</filter-name>
 		<url-pattern>/*</url-pattern>
@@ -34,6 +41,11 @@
 	<filter-mapping>
 		<filter-name>LoginFilter</filter-name>
 		<servlet-name>OrderServlet</servlet-name>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>/adminjsps/admin/*</url-pattern>
+		<url-pattern>/admin/*</url-pattern>
 	</filter-mapping>
 	
 	<servlet id="Servlet_1539413779142">
