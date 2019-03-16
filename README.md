@@ -133,7 +133,8 @@ Java网上图书商城，项目基于MVC设计模式，采用B/S结构
 ### 1.4.1　添加图书到购物车
 在图书详细页面，给出数量，然后点击“购买”就可以把图书添加到购物车中，并且会到达购物车列表页面。
 
-![添加购物车](https://github.com/LORDOFSKY/JavaShuCheng/blob/master/.settings/readmeImgage/%E6%B7%BB%E5%8A%A0%E5%9B%BE%E4%B9%A6%E5%88%B0%E8%B4%AD%E7%89%A9%E8%BD%A6.png)
+![高级搜索](https://github.com/LORDOFSKY/Java-ShuCheng/blob/master/.settings/readmeImgage/%E6%B7%BB%E5%8A%A0%E5%9B%BE%E4%B9%A6%E5%88%B0%E8%B4%AD%E7%89%A9%E8%BD%A6.png)
+
 
 ### 1.4.2　我的购物车
 也可以在首页上部点击“我的购物车”链接查询购物车。购物车列表页面会显示所有车中所有条目，每个条目会显示图书图片、图书名称、图书当前价、数量，以及小计。
