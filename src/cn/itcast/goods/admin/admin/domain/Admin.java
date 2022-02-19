@@ -1,5 +1,5 @@
 package cn.itcast.goods.admin.admin.domain;
-
+//管理员实体类
 public class Admin {
 	private String adminId;//主键
 	private String adminname;//管理员的登录名
